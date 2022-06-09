@@ -7,7 +7,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class AppComponent  {
   name = 'Componente externo iframe';
-  url: string = "https://recycob.fin.ec/";
+  url: string = "https://localhost:44391/index.aspx";
   urlSafe: SafeResourceUrl;
 
   constructor(public sanitizer: DomSanitizer) { }
